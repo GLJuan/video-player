@@ -23,3 +23,30 @@ build/Release
 # Deployed apps should consider commenting this line out:
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
+
+# Files added by text editors
+_notes
+dwsync.xml
+*.sublime-workspace
+
+# for .NET components
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log
+*.DS_Store
+[Tt]humbs.db
+_ReSharper.*  
+*.resharper
+Ankh.NoLoad  
+setup.exe  
+_UpgradeReport_Files/  
+UpgradeLog.XML  
+*.vspscc
+*.vssscc
+*.scc
+*.sqlsuo

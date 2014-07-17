@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="utf-8">
+	  <title></title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/bones.css">
+	  <link rel="stylesheet" href="css/layout.css">
+	  <link rel="stylesheet" href="css/styles.css">
+	  <!--[if lt IE 9]>
+		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	  <![endif]-->
+
+	  <style>
+
+	  </style>
+  </head>
+  <body>
+
+  	<section class="video-container">
+		  <article>
+		    <!-- Include the default video to be viewed -->
+		    <iframe name="ifrm" id="ifrm" width="640" height="360" src="//www.youtube.com/embed/mjB6Zm39Lno" frameborder="0" allowfullscreen></iframe>
+		  </artcile>
+		  
+		  <aside>
+		    <div class="playlist-heading">Related Videos</div>
+		  	<nav class="playlist">
+		  		<ul id="video-list"></ul>
+		  	</nav>
+		  </aside>  
+		</section>
+
+		<script id="videotpl" type="text/template">
+		  {{#videos}}
+		    <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
+		  {{/videos}}
+		</script>
+
+    <!-- JS Declations -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="js/scripts.js"></script> 
+  </body>
+</html>

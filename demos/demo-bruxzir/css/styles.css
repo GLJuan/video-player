@@ -1,0 +1,159 @@
+/* demo only */
+body { font-family: helvetica; }
+.video-container { margin: 40px auto 0; }
+
+/* Feature - Begin code */
+.video-container {
+  position: relative;
+  width: 940px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+.video-container article {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 640px;
+}
+.video-container article iframe{
+  width: 640px;
+  height: 360px;
+}
+.video-container aside {
+  position: absolute;
+  left: 640px;
+  top: 0;
+  width: 300px;
+}
+.playlist-heading {
+  background-color: #5b6068;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 36px;
+  overflow: hidden;
+  width: 300px;
+}
+.playlist-heading span {
+  padding-left: 10px;
+}
+.playlist {
+  background-color: #f8f8f8;
+  font-size: 13px;
+  width: 300px;
+  height: 324px;
+  overflow-y: auto;
+}
+
+#video-list {
+  list-style-type: none;
+  margin: 0; 
+  padding-left: 0;
+}
+
+#video-list li {
+  height: auto;
+}
+
+#video-list li a {
+  border-bottom: #9b9da1 solid 1px;
+  color: #666;
+  display:block;
+  height: 100%;
+  line-height: 1.6;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+#video-list li a:hover {
+  background-color: #5b6068;
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 1800px) {
+  .video-container {
+    width: 1640px;
+    height: 720px;
+  }
+
+  .video-container article {
+    width: 1280px;
+  }
+  .video-container article iframe {
+    width: 1280px;
+    height: 720px;
+  }
+  .video-container aside {
+    left: 1280px;
+    top: 0;
+    width: 360px;
+  }
+  .playlist-heading {
+    width: 360px;
+  }
+  .playlist {
+    width: 360px;
+    height: 684px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1799px) {
+  .video-container {
+    width: 1183px;
+    height: 480px;
+  }
+
+  .video-container article {
+    width: 853px;
+  }
+  .video-container article iframe {
+    width: 853px;
+    height: 480px;
+  }
+  .video-container aside {
+    left: 853px;
+    top: 0;
+    width: 330px;
+  }
+  .playlist-heading {
+    width: 330px;
+  }
+  .playlist {
+    width: 330px;
+    height: 444px;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .video-container {
+    width: 100%;
+    height: auto;
+  }
+  .video-container article {
+    height: 0; width: 100%; padding-bottom: 56.25%; position: relative;
+  }
+  .video-container article iframe {
+    height: 100%; width: 100%; position: absolute; top: 0; left: 0;
+  }
+  .video-container aside {
+    display: block;
+    position: relative;
+    left: 0;
+    width: 100%;
+  }
+  .playlist-heading {
+    width: 100%;
+  }
+  .playlist {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .playlist {
+    height: 180px;
+  }
+}
