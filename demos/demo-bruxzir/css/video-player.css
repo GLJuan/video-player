@@ -1,31 +1,29 @@
-/* demo only */
-body { font-family: helvetica; }
-.video-container { margin: 40px auto 0; }
-
-/* Feature - Begin code */
 .video-container {
+  margin: 0 auto;
   position: relative;
   width: 940px;
   height: 360px;
-  margin: 0 auto;
 }
 
-.video-container article {
+.video-stage {
   position: absolute;
   left: 0;
   top: 0;
   width: 640px;
 }
-.video-container article iframe{
+
+.video-stage iframe{
   width: 640px;
   height: 360px;
 }
-.video-container aside {
+
+.video-playlist {
   position: absolute;
   left: 640px;
   top: 0;
   width: 300px;
 }
+
 .playlist-heading {
   background-color: #5b6068;
   color: #fff;
@@ -35,10 +33,12 @@ body { font-family: helvetica; }
   overflow: hidden;
   width: 300px;
 }
+
 .playlist-heading span {
   padding-left: 10px;
 }
-.playlist {
+
+.video-playlist nav {
   background-color: #f8f8f8;
   font-size: 13px;
   width: 300px;
@@ -71,29 +71,32 @@ body { font-family: helvetica; }
   color: #fff;
 }
 
-
 @media only screen and (min-width: 1800px) {
   .video-container {
     width: 1640px;
     height: 720px;
   }
 
-  .video-container article {
+  .video-stage {
     width: 1280px;
   }
-  .video-container article iframe {
+  
+  .video-stage iframe {
     width: 1280px;
     height: 720px;
   }
-  .video-container aside {
+  
+  .video-playlist {
     left: 1280px;
     top: 0;
     width: 360px;
   }
+  
   .playlist-heading {
     width: 360px;
   }
-  .playlist {
+  
+  .video-playlist nav {
     width: 360px;
     height: 684px;
   }
@@ -105,22 +108,26 @@ body { font-family: helvetica; }
     height: 480px;
   }
 
-  .video-container article {
+  .video-stage {
     width: 853px;
   }
-  .video-container article iframe {
+  
+  .video-stage iframe {
     width: 853px;
     height: 480px;
   }
-  .video-container aside {
+  
+  .video-playlist {
     left: 853px;
     top: 0;
     width: 330px;
   }
+  
   .playlist-heading {
     width: 330px;
   }
-  .playlist {
+  
+  .video-playlist nav {
     width: 330px;
     height: 444px;
   }
@@ -131,29 +138,34 @@ body { font-family: helvetica; }
     width: 100%;
     height: auto;
   }
-  .video-container article {
+  
+  .video-stage {
     height: 0; width: 100%; padding-bottom: 56.25%; position: relative;
   }
-  .video-container article iframe {
+  
+  .video-stage iframe {
     height: 100%; width: 100%; position: absolute; top: 0; left: 0;
   }
-  .video-container aside {
+  
+  .video-playlist {
     display: block;
     position: relative;
     left: 0;
     width: 100%;
   }
+  
   .playlist-heading {
     width: 100%;
   }
-  .playlist {
+  
+  .video-playlist nav {
     width: 100%;
     height: 300px;
   }
 }
 
 @media only screen and (max-width: 481px) {
-  .playlist {
+  .video-playlist nav {
     height: 180px;
   }
 }
