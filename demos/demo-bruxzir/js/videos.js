@@ -1,23 +1,19 @@
 { "videos" : [
   {
-    "title":"A tour of Glidewell Laboratory",
-    "url":"//www.youtube.com/embed/mjB6Zm39Lno"
-  },
-  {
-    "title":"We Are Dental Technicians",
-    "url":"//www.youtube.com/embed/kqSUmWMmO5w"
-  },
-  {
     "title":"Shatter Your Doubts with the Sledgehammer Test",
     "url":"//www.youtube.com/embed/pYkwcehadxo"
   },
   {
-    "title":"BruxZir Solid Zirconia vs. PFM: Gravity Bites",
-    "url":"//www.youtube.com/embed/TOmOXKMnirw"
+    "title":"Hammer Test: BruxZir<sup>&reg;</sup> vs PFM",
+    "url":"//www.youtube.com/embed/2ZRfQK6Ipb0"
   },
   {
-    "title":"Using BruxZir<sup>&reg;</sup> Crowns To Mask Tetracycline & Correct Edge-To-Edge Bite",
-    "url":"//www.youtube.com/embed/qFXMJTxrWds"
+    "title":"Introduction to BruxZir Total Zirconia",
+    "url":"//www.youtube.com/embed/tUpp_DOY4Vw"
+  },
+  {
+    "title":"BruxZir Solid Zirconia vs. PFM: Gravity Bites",
+    "url":"//www.youtube.com/embed/TOmOXKMnirw"
   },
   {
     "title":"BruxZir<sup>&reg;</sup>: How It Began",
@@ -28,23 +24,27 @@
     "url":"//www.youtube.com/embed/D4taHSdbP_w"
   },
   {
-    "title":"Digital Impressions Utilizing Intra Oral Scanning Technology",
-    "url":"//www.youtube.com/embed/eWeXwb9TGFg"
+    "title":"Updated BruxZir<sup>&reg;</sup> Cleaning, Cementing & Bonding Protocol",
+    "url":"//www.youtube.com/embed/_zsOdOxoeNY"
   },
   {
-    "title":"aveoTSD Patient Testimonial",
-    "url":"//www.youtube.com/embed/SBlb5SH2n1s"
+    "title":"An Esthetic Challenge For a New, More Translucent Version of BruxZir<sup>&reg;</sup>",
+    "url":"//www.youtube.com/embed/N9BPnCzYopQ"
   },
   {
-    "title":"2010 Tosoh Award Winner",
-    "url":"//www.youtube.com/embed/hUmcLizNJqM"
+    "title":"Clinical Case: The Pursuit of BruxZir<sup>&reg;</sup> Esthetics: Anterior Crowns #8 & #9",
+    "url":"//www.youtube.com/embed/GzKZbiOXio0"
   },
   {
-    "title":"IOS FastScan Digital Impression & Modeling System",
-    "url":"//www.youtube.com/embed/09qKu_TI7b0"
+    "title":"Using BruxZir<sup>&reg;</sup> Crowns To Mask Tetracycline & Correct Edge-To-Edge Bite ",
+    "url":"//www.youtube.com/embed/qFXMJTxrWds"
   },
   {
-    "title":"Introduction to BruxZir Total Zirconia",
-    "url":"//www.youtube.com/embed/tUpp_DOY4Vw"
+    "title":"A First Look at a BruxZir Solid Zirconia Bridge to Replace a Failed PFM Roundhouse Bridge",
+    "url":"//www.youtube.com/embed/x029gLic-uo"
+  },
+  {
+    "title":"BruxZir Clinical Indications & Scientific Validation ",
+    "url":"//www.youtube.com/embed/yhJZoWV9sXE"
   }
 ]}

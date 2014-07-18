@@ -54,21 +54,28 @@
 
 #video-list li {
   height: auto;
+  margin-bottom: 0;
 }
 
 #video-list li a {
   border-bottom: #9b9da1 solid 1px;
   color: #666;
-  display:block;
+  display: block;
   height: 100%;
   line-height: 1.6;
   padding: 8px 10px;
   text-decoration: none;
+  -webkit-transition: all .12s ease;
+  -moz-transition: all .12s ease;
+  -ms-transition: all .12s ease;
+  -o-transition: all .12s ease;
+  transition: all .12s ease;
 }
 
 #video-list li a:hover {
-  background-color: #5b6068;
+  background-color: #9b9da1;
   color: #fff;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1800px) {
