@@ -14,36 +14,36 @@ The player leverages **jQuery** for the functionality. The template is built wit
 Your project needs jQuery and Mustache.js in order to function. They can either be in the project with files stored on the same server. Or they can be referenced via a CDN. Call them before your closing `</body>`. They are added in the demos here as:
 
 ```
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
 ```
 
 ###Configuration
 Reference the default `video-player.js` file or add a script after the Mustache script. For example:
 
 ```
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	  <script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
-		<script>
-		// Streams in the data from the JSON file
-		$(function() {
-		  $.getJSON('js/videos.js', function(data) {
-		    var template = $('#videotpl').html();
-		    var html = Mustache.to_html(template, data);
-		    $('#video-list').html(html);
-		  });
-		});
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+<script>
+// Streams in the data from the JSON file
+$(function() {
+  $.getJSON('js/videos.js', function(data) {
+    var template = $('#videotpl').html();
+    var html = Mustache.to_html(template, data);
+    $('#video-list').html(html);
+  });
+});
 
-		// Changest the url of the iframe
-		function loadIframe(iframeName, url) {
-		  var $iframe = $('#' + iframeName);
-		    if ( $iframe.length ) {
-		      $iframe.attr('src',url);   
-		      return false;
-		    }
-		  return true;
-		}
-		</script>
+// Changest the url of the iframe
+function loadIframe(iframeName, url) {
+  var $iframe = $('#' + iframeName);
+    if ( $iframe.length ) {
+      $iframe.attr('src',url);   
+      return false;
+    }
+  return true;
+}
+</script>
 ```
 
 The player will not work if you do not have the scripts in that order.
@@ -54,21 +54,21 @@ The second line should be modified to fit the path where you saved your playlist
 The default is 
 
 ```
-		<section class="video-fixed-rt">
-		  <div class="video-stage">
-		    <!-- Include the default video to be viewed -->
-		    <iframe name="ifrm" id="ifrm" src="//www.youtube.com/embed/pYkwcehadxo" frameborder="0" allowfullscreen></iframe>
-		  </div>
-		  
-		  <div class="video-playlist">
-		    <div class="playlist-heading">
-		      <span>Related Videos</span>
-		    </div>
-		  	<nav>
-		  		<ul id="video-list"></ul>
-		  	</nav>
-		  </div>
-		</section>
+<section class="video-fixed-rt">
+  <div class="video-stage">
+    <!-- Include the default video to be viewed -->
+    <iframe name="ifrm" id="ifrm" src="//www.youtube.com/embed/pYkwcehadxo" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  <div class="video-playlist">
+    <div class="playlist-heading">
+      <span>Related Videos</span>
+    </div>
+  	<nav>
+  		<ul id="video-list"></ul>
+  	</nav>
+  </div>
+</section>
 ```
 
 The class of the `<section>` should use the class of the player version that you want to use. The naming convention was set to describe [element type]-[grid type]-[position of playlist]. The grid options are fluid or fixed. The positions can be **top**(top), **rt**(right), **btm**(bottom), or **lt**(left).
@@ -81,11 +81,11 @@ The default player has the list populated as `<li>` items into `<ul id="video-li
 The template is populated by the script. The default is 
 
 ```
-		<script id="videotpl" type="text/template">
-		  {{#videos}}
-		    <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
-		  {{/videos}}
-		</script>
+<script id="videotpl" type="text/template">
+  {{#videos}}
+    <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
+  {{/videos}}
+</script>
 ```
 
 ###Styling
