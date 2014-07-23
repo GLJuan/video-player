@@ -1,6 +1,6 @@
 // Streams in the data from the JSON file
 $(function() {
-  $.getJSON('videos.js', function(data) {
+  $.getJSON('js/videos.js', function(data) {
     var template = $('#videotpl').html();
     var html = Mustache.to_html(template, data);
     $('#video-list').html(html);

@@ -1,50 +1,34 @@
 { "videos" : [
   {
-    "title":"A tour of Glidewell Laboratory",
-    "url":"//www.youtube.com/embed/mjB6Zm39Lno"
+    "title":"Crazy Koala Fight",
+    "url":"//www.youtube.com/embed/x8oLu7znwQ0"
   },
   {
-    "title":"We Are Dental Technicians",
-    "url":"//www.youtube.com/embed/kqSUmWMmO5w"
+    "title":"Koala Meets Cyclist ",
+    "url":"//www.youtube.com/embed/Pq6RyIyGr2Q"
   },
   {
-    "title":"Shatter Your Doubts with the Sledgehammer Test",
-    "url":"//www.youtube.com/embed/pYkwcehadxo"
+    "title":"Very Angry Koala - Did you know why aggressive Koala are...",
+    "url":"//www.youtube.com/embed/G5-ikzI07Hs"
   },
   {
-    "title":"BruxZir Solid Zirconia vs. PFM: Gravity Bites",
-    "url":"//www.youtube.com/embed/TOmOXKMnirw"
+    "title":"Baby Koala Tries to Eat Leaves For The First Time",
+    "url":"//www.youtube.com/embed/nSgR6SmLYXc"
   },
   {
-    "title":"Using BruxZir<sup>&reg;</sup> Crowns To Mask Tetracycline & Correct Edge-To-Edge Bite",
-    "url":"//www.youtube.com/embed/qFXMJTxrWds"
+    "title":"Curious Koala Walks Into House",
+    "url":"//www.youtube.com/embed/vObhcZ4aUHM"
   },
   {
-    "title":"BruxZir<sup>&reg;</sup>: How It Began",
-    "url":"//www.youtube.com/embed/2FJqZOI0ktM"
+    "title":"Rescuing A Stuck Koala",
+    "url":"//www.youtube.com/embed/LFj2LIBbsic"
   },
   {
-    "title":"BruxZir<sup>&reg;</sup> Solid Zirconia Patient Education",
-    "url":"//www.youtube.com/embed/D4taHSdbP_w"
+    "title":"A Wild Koala In The Backyard",
+    "url":"//www.youtube.com/embed/knQAXmCZ52E"
   },
   {
-    "title":"Digital Impressions Utilizing Intra Oral Scanning Technology",
-    "url":"//www.youtube.com/embed/eWeXwb9TGFg"
-  },
-  {
-    "title":"aveoTSD Patient Testimonial",
-    "url":"//www.youtube.com/embed/SBlb5SH2n1s"
-  },
-  {
-    "title":"2010 Tosoh Award Winner",
-    "url":"//www.youtube.com/embed/hUmcLizNJqM"
-  },
-  {
-    "title":"IOS FastScan Digital Impression & Modeling System",
-    "url":"//www.youtube.com/embed/09qKu_TI7b0"
-  },
-  {
-    "title":"Introduction to BruxZir Total Zirconia",
-    "url":"//www.youtube.com/embed/tUpp_DOY4Vw"
+    "title":"Koala Wants A Cuddle",
+    "url":"//www.youtube.com/embed/95JmoNY1AVg"
   }
 ]}

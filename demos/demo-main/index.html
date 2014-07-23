@@ -6,20 +6,38 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="css/bones.css">
 	  <link rel="stylesheet" href="css/layout.css">
+	  <link rel="stylesheet" href="css/video-player.css">
 	  <link rel="stylesheet" href="css/styles.css">
 	  <!--[if lt IE 9]>
 		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	  <![endif]-->
-
-	  <style>
-
-	  </style>
   </head>
   <body>
+  	<section class="video-container">
+		  <div class="video-stage">
+		    <!-- Include the default video to be viewed -->
+		    <iframe name="ifrm" id="ifrm" src="//www.youtube.com/embed/x8oLu7znwQ0" frameborder="0" allowfullscreen></iframe>
+		  </div>
+		  
+		  <div class="video-playlist">
+		    <div class="playlist-heading">
+		      <span>Related Videos</span>
+		    </div>
+		  	<nav>
+		  		<ul id="video-list"></ul>
+		  	</nav>
+		  </div>
+		</section>
+
+		<script id="videotpl" type="text/template">
+		  {{#videos}}
+		    <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
+		  {{/videos}}
+		</script>
 
     <!-- JS Declations -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
-    <script src="js/scripts.js"></script> 
+    <script src="js/video-player.js"></script> 
   </body>
 </html>
